@@ -1,0 +1,10 @@
+{
+  "name": "reality",
+  "version": "0.1.0",
+  "description": "Gaming and Development Platform",
+  "main": "dist/index.html",
+  "repository": "https://github.com/elyctech/reality",
+  "author": "Cyle Ven Dawson <dawsonc623@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
