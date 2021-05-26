@@ -1544,6 +1544,21 @@
     "@parcel/source-map" "2.0.0-alpha.4.21"
     sass "^1.32.4"
 
+"@parcel/transformer-typescript-tsc@2.0.0-beta.2":
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-tsc/-/transformer-typescript-tsc-2.0.0-beta.2.tgz#7b591fe908bc43f4876f0270f1c1de26c739718d"
+  integrity sha512-YyJFNA0MFoX2ooRZP1fcuTNl8WxRlmRTyCkZeplbJq9MO2AcVBt1dwhlzbuyNX231Wqre+QA2fO4fzjVnDLZJQ==
+  dependencies:
+    "@parcel/plugin" "2.0.0-beta.2"
+    "@parcel/ts-utils" "2.0.0-beta.2"
+
+"@parcel/ts-utils@2.0.0-beta.2":
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@parcel/ts-utils/-/ts-utils-2.0.0-beta.2.tgz#e18698435e6bea6a3a6f9fd65078c8fe9b4bdec2"
+  integrity sha512-TGnvG+kLZYOU4LDtf4idwxmGmJQdj365a3UsVvsBH9BkQg8ucE92S93E7qei7J7ilacKz1I/evIkQvcMnQmh6w==
+  dependencies:
+    nullthrows "^1.1.1"
+
 "@parcel/types@2.0.0-beta.2":
   version "2.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@parcel/types/-/types-2.0.0-beta.2.tgz#39530f885a546ccc8759ba8b970440bb7aadc146"
@@ -1573,6 +1588,16 @@
     node-forge "^0.10.0"
     nullthrows "^1.1.1"
     open "^7.0.3"
+
+"@parcel/validator-typescript@2.0.0-beta.2":
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@parcel/validator-typescript/-/validator-typescript-2.0.0-beta.2.tgz#2b76c243ddfe65d1036fe4b5b70c7e0a40586f64"
+  integrity sha512-1pE/IglisAJQOPaRVr3D7c1U/Zp567llqW22+5FAR1PEHV5ClGZkhU71RG7d9sGi+UxL2gP7nW4EjXQuVGlP/g==
+  dependencies:
+    "@parcel/plugin" "2.0.0-beta.2"
+    "@parcel/ts-utils" "2.0.0-beta.2"
+    "@parcel/types" "2.0.0-beta.2"
+    "@parcel/utils" "2.0.0-beta.2"
 
 "@parcel/watcher@2.0.0-alpha.10":
   version "2.0.0-alpha.10"
@@ -5002,7 +5027,7 @@ pako@~1.0.5:
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
   integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
-parcel@^2.0.0-beta.2:
+parcel@2.0.0-beta.2:
   version "2.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/parcel/-/parcel-2.0.0-beta.2.tgz#0a58f0b810fe2199b35d7bf7a949906568222d75"
   integrity sha512-fOoxOYdoZpmBP4jd+qNKuW5DeqLTIILIKtaBqXm+DCRjaQGbZw0zQ+mhW9PStcT0pbjJedcXuUyc1GGHdvobYw==
